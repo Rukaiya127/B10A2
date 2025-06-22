@@ -16,7 +16,9 @@ body {
     margin: 0;
 }
 
-.fc {
+.fc { 
+       flex-direction: column;
+    flex-wrap: wrap;
     color: rgb(255, 255, 255);
 }
 
@@ -397,8 +399,10 @@ select{
     gap: 1.5rem;
   }
 
-  
+
 .fc {
+    flex-direction: column;
+    flex-wrap: wrap;
     color: rgb(255, 255, 255);
 }
   .shape {
@@ -472,7 +476,9 @@ select{
     gap: 2rem;
   }
 
-.fc {
+.fc { 
+    flex-direction: column;
+    flex-wrap: wrap;
     color: rgb(255, 255, 255);
 }
   .banner-section {
