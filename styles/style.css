@@ -416,6 +416,15 @@ select {
 /* Small Devices (≤576px) */
 @media (max-width: 576px) {
   .navbar,
+.nav-options,
+.banner-section,
+.imgrow1,
+.imgrow2,
+.footer {
+  flex-direction: column;
+}
+
+  .navbar,
   .nav-options {
     flex-direction: column;
     gap: 1rem;
@@ -511,65 +520,5 @@ select {
 
   .copyright {
     font-size: 18px;
-  }
-}
-
-/* Medium Devices (577px–992px) */
-@media (min-width: 577px) and (max-width: 992px) {
-  .navbar {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .banner-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .banner-description {
-    width: 80%;
-  }
-
-  .frame27,
-  .frame28 {
-    flex-direction: column;
-    height: auto;
-    padding: 2rem 0;
-  }
-
-  input,
-  select {
-    width: 80%;
-  }
-
-  .imgrow1,
-  .imgrow2 {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .frame46 img {
-    width: 300px;
-    height: auto;
-  }
-
-  .footer {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
-}
-
-/* Large Devices (≥993px) */
-@media (min-width: 993px) {
-  .navbar,
-  .banner-section,
-  .imgrow1,
-  .imgrow2,
-  .frame27,
-  .frame28,
-  .footer {
-    flex-direction: row;
   }
 }
