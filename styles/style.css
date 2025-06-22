@@ -15,6 +15,11 @@ body {
   color: white;
   overflow-x: hidden;
 }
+.fc{
+    color: rgb(230, 83, 60);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 .italic {
   font-family: "Herr Von Muellerhoff", cursive;
@@ -328,7 +333,11 @@ input, select {
   justify-content: space-around;
   align-items: center;
 }
-
+.fc{
+    color: rgb(230, 83, 60);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
   .bannerbtn {
     flex-direction: column;
   }
