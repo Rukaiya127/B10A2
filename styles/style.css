@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
-@media screen and (max-width:576px){
+
 body {
     font-family: "Inter", sans-serif;
     background-color: black;
@@ -380,6 +379,118 @@ select{
     text-align: center;
     font-size: 30px;
 }
+/* small device  */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-options,
+  .banner-section,
+  .imgrow1,
+  .imgrow2,
+  .footer {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
 
+  .shape {
+    font-size: 4rem;
+  }
 
+  .banner-description,
+  .center p,
+  .frame8 p,
+  .footerdes,
+  .footerpoints {
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .images2 {
+    height: 20rem;
+  }
+
+  .box1 {
+    top: -300px;
+    left: 0;
+  }
+
+  .box2 {
+    top: -150px;
+    left: 0;
+    flex-direction: column;
+  }
+
+  input,
+  select {
+    width: 90%;
+  }
+
+  .frame46 img {
+    width: 90%;
+    height: auto;
+  }
+
+  .head,
+  .head3,
+  .head4,
+  .bmi {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .copyright {
+    font-size: 18px;
+  }
+
+  .footer {
+    gap: 2rem;
+  }
+}
+
+/* medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .banner-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner-description {
+    width: 80%;
+  }
+
+  .frame27,
+  .frame28 {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  input,
+  select {
+    width: 80%;
+  }
+
+  .imgrow1,
+  .imgrow2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .frame46 img {
+    width: 300px;
+    height: auto;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
 }
