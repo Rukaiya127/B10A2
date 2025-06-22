@@ -321,6 +321,12 @@ input, select {
   .shape {
     font-size: 3rem;
   }
+  .banner-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
   .bannerbtn {
     flex-direction: column;
