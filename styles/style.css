@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
 }
 .fc{
-    color: rgb(230, 83, 60);
+    color:white;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -334,7 +334,7 @@ input, select {
   align-items: center;
 }
 .fc{
-    color: rgb(230, 83, 60);
+    color: white;
     flex-direction: column;
     flex-wrap: wrap;
 }
