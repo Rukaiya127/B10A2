@@ -379,7 +379,11 @@ select{
     text-align: center;
     font-size: 30px;
 }
-/* small device  */
+
+
+
+
+/* Small devices (max-width: 576px) */
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-options,
@@ -388,8 +392,9 @@ select{
   .imgrow2,
   .footer {
     flex-direction: column;
-    gap: 1.5rem;
+    flex-wrap: wrap;
     align-items: center;
+    gap: 1.5rem;
   }
 
   .shape {
@@ -401,22 +406,24 @@ select{
   .frame8 p,
   .footerdes,
   .footerpoints {
-    width: 90%;
+    width: 90% !important;
     font-size: 18px;
     text-align: center;
   }
 
-  .images2 {
-    height: 20rem;
+  .images2,
+  .runimage {
+    width: 90%;
+    height: auto;
   }
 
   .box1 {
-    top: -300px;
+    top: -200px;
     left: 0;
   }
 
   .box2 {
-    top: -150px;
+    top: -100px;
     left: 0;
     flex-direction: column;
   }
@@ -434,21 +441,27 @@ select{
   .head,
   .head3,
   .head4,
-  .bmi {
-    font-size: 32px;
+  .bmi,
+  .head5 {
+    font-size: 28px;
     line-height: normal;
+    text-align: center;
+  }
+
+  .frame27,
+  .frame28 {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    padding: 2rem 0;
   }
 
   .copyright {
     font-size: 18px;
   }
-
-  .footer {
-    gap: 2rem;
-  }
 }
 
-/* medium device */
+/* Medium devices (min-width: 577px and max-width: 992px) */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .navbar {
     flex-direction: column;
@@ -494,3 +507,8 @@ select{
     gap: 2rem;
   }
 }
+
+
+
+
+
